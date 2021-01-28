@@ -1,0 +1,13 @@
+#!/usr/bin/fish
+
+ln -sf $PWD/search ~/.local/bin/\?
+
+ln -sf $PWD/multiclipboard.py ~/.local/bin/mc
+
+ln -sf $PWD/launcher.py ~/.local/bin/r
+
+ln -sf $PWD/scripts_fish.pl ~/.local/bin/fishy
+
+ln -sf $PWD/Timer ~/.config/Timer
+
+ln -sf $PWD/sunrise ~/.local/bin/sunrise

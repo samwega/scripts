@@ -1,0 +1,20 @@
+#!/usr/bin/fish
+
+set sticky a b c d e f g
+set a "🯅"
+set b "🯆"
+set c "🯇"
+set d "🯈"
+set e "ᢥ"
+set f "ᡷ"
+set g "ᢤ"
+set i 1
+
+while true
+    clear
+    set x (string repeat -n$i . )
+    echo {$x 🦠 ~$$sticky[(random 1 7)]} \nCorona! Corona! Corona! Corona!\n
+    set i (math $i+1)
+    sleep 0.3
+    
+end
