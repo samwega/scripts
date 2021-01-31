@@ -11,3 +11,5 @@ ln -sf $PWD/scripts_fish.pl ~/.local/bin/fishy
 ln -sf $PWD/Timer ~/.config/Timer
 
 ln -sf $PWD/sunrise ~/.local/bin/sunrise
+
+ln -sf $PWD/emo ~/.local/bin/emo

@@ -1,0 +1,4 @@
+#!/bin/sh
+# pipe selected words through emo to get corresponding emojis. Tested with kakoune.
+xargs -r printf ':%s:' | pandoc -f gfm -t plain
+
