@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+# makes a copy of the file adding date/time to it
+ 
+date_formatted=$(date +%m_%d_%y-%H.%M.%S)
+
+cp -iv $1 $1.$date_formatted
+

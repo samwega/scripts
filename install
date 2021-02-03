@@ -15,3 +15,5 @@ ln -sf $PWD/sunrise ~/.local/bin/sunrise
 ln -sf $PWD/emo ~/.local/bin/emo
 
 ln -sf $PWD/saferm.sh ~/.local/bin/del
+
+ln -sf $PWD/datecp ~/.local/bin/cpd
