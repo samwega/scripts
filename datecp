@@ -1,5 +1,8 @@
 #!/usr/bin/bash
-# makes a copy of the file adding date/time to it
+## makes a copy of the file adding date/time to it
+
+# can use it with multiple files like so (fish shell):
+# for file in ./*; cpd $file; end
  
 date_formatted=$(date +%m_%d_%y-%H.%M.%S)
 
