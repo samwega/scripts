@@ -17,3 +17,5 @@ ln -sf $PWD/emo ~/.local/bin/emo
 ln -sf $PWD/saferm.sh ~/.local/bin/del
 
 ln -sf $PWD/datecp ~/.local/bin/cpd
+
+ln -sf $PWD/gorun ~/.local/bin/gorun

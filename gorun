@@ -1,0 +1,5 @@
+#!/usr/bin/bash
+# use this to pipe the best shebang line at the beginning of golang scripts via "magic wand" in vim (!!) & kakoune (!). To be placed in PATH
+# this line allows one to run go scripts with ./
+ 
+echo '///usr/bin/true; exec /usr/bin/env go run "$0" "$argv(1)"'
