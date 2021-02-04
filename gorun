@@ -2,4 +2,4 @@
 # use this to pipe the best shebang line at the beginning of golang scripts via "magic wand" in vim (!!) & kakoune (!). To be placed in PATH
 # this line allows one to run go scripts with ./
  
-printf '///usr/bin/true; exec /usr/bin/env go run "$0" "$argv(1)"\n//\npackage main\n\nimport (\n"fmt"\n)\n\nfunc main {\n\n}'
+printf '///usr/bin/true; exec /usr/bin/env go run "$0" "$argv(1)"\n//\npackage main\n\nimport (\n    "fmt"\n)\n\nfunc main() {\n\n}'
