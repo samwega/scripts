@@ -1,5 +1,7 @@
 package main
 
+// From https://github.com/faiface/beep/wiki/Composing-and-controlling
+
 import (
 	"log"
 	"os"
