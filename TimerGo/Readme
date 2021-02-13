@@ -1,0 +1,5 @@
+Source is in the .go files, they are not required. The two binaries and the .wav file are required.
+
+Run with './timer' for default 5 minute rounds. Run with './timer #' with # being the number of minutes you want per round.
+
+By samvega
