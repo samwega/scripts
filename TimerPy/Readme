@@ -1,0 +1,8 @@
+This is an interval timer that plays a bell at the end of each round. Round duration can be set by the user. Usage is printed with you run ./intervalTimer.py
+
+
+Dependencies:
+pygame
+figlet
+
+By samvega
