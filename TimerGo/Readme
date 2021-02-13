@@ -1,4 +1,6 @@
-Source is in the .go files, they are not required. The two binaries and the .wav file are required.
+This is an interval timer that plays a bell at the end of each round. Round duration can be set by the user.
+
+Source is in the .go files, they are not required. The two binaries and the .wav file are required. I've included the "play" binary. The timer binary can easily be compiled.
 
 Run with './timer' for default 5 minute rounds. Run with './timer #' with # being the number of minutes you want per round.
 

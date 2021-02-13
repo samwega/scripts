@@ -10,7 +10,7 @@ from pygame import mixer
 # currently only works on Linux
 
 mixer.init()
-mixer.music.load("/home/samvega/.config/Timer/garuda_bowl.wav")
+mixer.music.load("./garuda_bowl.wav")
 
 
 os.system('echo Press ENTER to begin default 5 minute timer. Enter a number of minutes and press ENTER otherwise. Press Ctrl-c to quit.')
