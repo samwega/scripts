@@ -18,4 +18,4 @@ ln -sf $PWD/datecp ~/.local/bin/cpd
 
 ln -sf $PWD/gorun ~/.local/bin/gorun
 
-ln -sf $PWD/colorscripts.sh ~/.local/bin/colors
+ln -sf $PWD/colorscript.sh ~/.local/bin/colors
