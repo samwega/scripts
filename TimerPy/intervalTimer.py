@@ -18,7 +18,7 @@ duration = input()  # press ENTER to begin, number to set interval minutes
 def interval():
 
     # round = 300  # 300 seconds is 5 minutes
-    round = 300
+    round = 180
     if duration != '':
         round = int(duration) * 60
     else:
